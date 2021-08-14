@@ -43,7 +43,7 @@ class Boot05WebAdminApplicationTests {
     void contextLoads4() {
         System.out.println("测试的方法整体4");
         System.out.println("热修分支");
-        System.out.println("master冲突");
+        System.out.println("手动处理冲突");
     }
 
     @Disabled
