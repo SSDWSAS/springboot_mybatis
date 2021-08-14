@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.gdupt.dao.PetMapper">
+
+    <!--     public List<Pet> queryAllPet();-->
+    <select id="queryAllPet" resultType="org.gdupt.bean.Pet">
+        select * from  tb_pet
+    </select>
+
+    <!--    useGeneratedKeys="true" keyProperty="id"  id自增时需要返回自增之后的主键 , 需要设置各两个属性值-->
+    <!--    <insert id=""  useGeneratedKeys="true" keyProperty="id"></insert>-->
+</mapper>
