@@ -10,6 +10,5 @@ public class Boot01Helloworld02Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Boot01Helloworld02Application.class, args);
-        //在网页端添加的注释 , pull
     }
 }
