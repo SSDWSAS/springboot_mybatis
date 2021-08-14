@@ -42,6 +42,8 @@ class Boot05WebAdminApplicationTests {
     @Test
     void contextLoads4() {
         System.out.println("测试的方法整体4");
+        System.out.println("热修分支");
+        System.out.println();
     }
 
     @Disabled
